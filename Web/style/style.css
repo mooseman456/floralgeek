@@ -1,0 +1,121 @@
+/*\
+ *  File name: style.css
+ *  File author: Joe St. Angelo
+ * 
+ *  File is to be used for the Floralgeek Sales Database
+\*/
+
+html {
+    height:100%;
+}
+
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    font-size:16px;
+    font-family:'Ubuntu',Arial;
+    background-color: rgba(0,0,150,.02);
+}
+
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+th, td {
+    text-align:center;
+    vertical-align:center;
+    padding-left:.5em;
+    padding-right:.5em;
+}
+
+.conversationTable {
+    width: 5em;
+}
+
+input#addressTwo {
+    width: 3em;
+}
+
+.results td{
+    text-align: left;
+}
+
+.nav {
+    padding-left: 1em;
+}
+
+th {
+    background-color: rgba(0, 0, 0, .30);
+}
+
+tr:nth-child(even){
+    background-color: rgba(0, 0, 0, .15);
+}    
+tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.sortCat:hover{
+    cursor:pointer;
+    background-color: rgba(36,145,255,0.76);
+}
+
+#resultTable tr:nth-child(n+2):hover, .conversation:nth-child(n+2):hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .5);
+}
+table{
+    margin-bottom: 2em;
+}
+
+#name{
+    width:20em;
+}
+
+#zip{
+    width:4em;
+}
+
+#locations{
+    width:2.2em;
+}
+
+#numRooms{
+    width:3em;
+}
+
+#rate{
+    width:3.5em;
+}
+
+#gds{
+    width:5em;
+}
+
+#SPAssigned, #SP{
+    width:2.1em;
+}
+
+.date{
+    width:7em;
+}
+
+#conversation{
+    width: 99%;
+    height:2em;
+}
+
+.address{
+    width:20em;
+}
+
+ul {
+    list-style-type: none;
+}
